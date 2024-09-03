@@ -22,7 +22,12 @@
     "suppressImplicitAnyIndexErrors": true,
     "target": "es2020",
     "baseUrl": ".",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "emitDeclarationOnly": false,
+    "rootDir": "./src",
+    "types": []
   },
   "include": ["src", ".storybook", "*.config.*"],
   "exclude": ["**/dist", "**/build", "node_modules", "**/node_modules"]

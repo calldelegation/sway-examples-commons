@@ -1,6 +1,6 @@
 {
   "name": "sway-examples-commons",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Common components for sway example apps",
   "main": "./dist/index.js",
   "type": "module",
